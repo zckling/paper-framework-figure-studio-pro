@@ -1,49 +1,43 @@
-# 可在 Visio 中修改的框架图
+# Visio 可编辑框架图：兼容修订版 v2
 
-**优先下载 `framework-editable.vsdx`，在桌面版 Visio 中用“文件 → 打开”打开。**
+上一版曾被用户的 Microsoft Visio 提示损坏。原先 ZIP 内含同一份旧文件，请改用本次新命名的兼容版。
 
-- [Visio 原生文件](framework-editable.vsdx)
-- [全部文件 ZIP](framework-editable-package.zip)
-- [SVG 矢量备份](framework-editable.svg)
+- [优先尝试：VDX 兼容格式](framework-visio-compatible-v2.vdx)
+- [VSDX 兼容修订版](framework-visio-compatible-v2.vsdx)
+- [新版完整 ZIP 包](framework-visio-compatible-v2.zip)
+- [SVG 备用](framework-editable.svg)
 - [PNG 预览](framework-editable-preview.png)
 
-![矢量重建版预览](framework-editable-preview.png)
+下载原始文件到本地，在桌面版 Visio 中选择“文件 → 打开”。VDX 打开后可在 Visio 中另存为 VSDX，请不要只修改扩展名。
 
-## 可以修改什么
+![框架图预览](framework-editable-preview.png)
 
-这是对 v4 草稿的对象级重建。原生 Visio 文件包含 **220 个独立对象，其中 70 个文字对象、47 个线条/连接对象和 7 张嵌入照片**。两个 Encoder 和四个阶段模块均为圆角矩形；雪花、提示 token、特征符号、框线及箭头为矢量几何对象。
+## 本次调整
 
-- 文字和公式可以直接编辑；公式以文本形式保留。
-- 各个框、照片、符号和连线可以分别选择、移动、调整尺寸及样式，无需先取消整图组合。
-- 照片保留为独立位图，可以移动、缩放或替换；放大照片不会增加原始像素细节。
-- 连线具有独立的形状对象和端点依赖记录。移动模块后请检查折线路径，复杂折线可能仍需手动调整。
-- 页面分为 Background panels、Method shapes、Editable text、Connectors、Photographs、Vector symbols 六个层，可在 Visio 的图层属性中管理。
-- SVG 中也保留了可编辑文字与几何对象。不同软件导入 SVG 的方式不同，使用 Visio 时优先打开 VSDX。
+VSDX 改用由 Visio 保存的完整文档骨架，保留完整样式、DocumentSheet、应用属性和窗口设置。删除了上一版不一致的一维端点/二维变换组合和跨对象粘连公式，连线保留为独立矢量折线。移动模块后，需要手动调整连线，不提供自动路由。
 
-## 方法内容
+新增单文件 Visio XML（VDX）版本，绕开 OPC 压缩容器。它仍包含 220 个独立对象，其中 70 个文字对象、47 个线条对象及 7 张嵌入照片。兼容版不使用图层。
 
-只包含 **Query-Conditioned Prototype Mixing（查询条件化原型混合）**和 **Stage-wise Visual Prompting（分阶段视觉提示）**两个方法分支。
+旧版失败的唯一根因尚未由 Microsoft Visio 的详细错误信息确认。上述属于有针对性的结构重建，不能描述为已经在微软 Visio 中成功打开。
 
-同一批支持图像和标签用于两分支：上分支保存支持特征并在 query 到来时按类加权、与全局类中心混合；下分支仅用支持集训练四组阶段提示，每阶段两枚提示，阶段切换时替换，共 8,192 个参数。query 分别进入两条推断路径；最后固定等权平均两路概率。
+## 验证范围
 
-下分支公式使用等价记法 `Δᵥ = vᵀ(t₁ − t₀)`、`pᵥ = σ(15Δᵥ)`，与 v4 的概率表达一致。没有加入独立静态原型分支。
+新版 VSDX 的主要 Visio XML 部件通过 Apache POI 所使用的公开 Visio Schema 校验；OPC 内容类型和关系文件通过对应 Schema 校验。ZIP CRC、部件引用和 XML 结构检查通过。
 
-## 验证与范围
+VSDX 与 VDX 均由 LibreOffice 的 Visio 导入器成功导入并导出单页 PDF；核对了两个方法名称、四个阶段、8,192 参数、7 张照片及矢量绘制记录。当前环境没有 Microsoft Visio，仍需在用户的本机版本确认。
 
-VSDX 已通过 ZIP/XML、关系引用与对象数量检查，并由 LibreOffice 的 Visio 导入器成功加载和导出 PDF；确认文字仍可读取，保留 7 张照片及矢量绘制记录。SVG 已用 Inkscape 渲染检查。
+上一版的第三方导入测试不足以证明微软 Visio 接受；本次修订明确保留该验证限制。下载大小和 SHA-256 记录在 editability-report.json 中。
 
-当前环境未运行 Microsoft Visio。请在自己的桌面版 Visio 中检查最终字体与连线路径；独立导入器可能为照片添加自己的默认边框。PNG 预览来自 SVG，展示了预期的中性照片边框。
+## 可以编辑什么
 
-本文件是方便人工修改的矢量重建稿，不是逐像素追踪，也未进行最终发表验收。原始 v4 PNG 保存在上一级目录。
+仅包含查询条件化原型混合与分阶段视觉提示两个方法。两个 Encoder 等宽，四个阶段框为圆角矩形，雪花、token、特征符号和箭头为矢量。文字和公式按文本编辑，照片可移动、缩放或替换。VDX 中少数下标按普通文字显示，可以在 Visio 中调整。
 
-## 文件与重建
+两分支共用同一批支持样本，仅支持集训练 8,192 个提示参数；query 进入两条推断路径，最终固定等权融合。没有独立静态原型分支。
 
-- `framework-editable.vsdx`：Visio 2013 及以后桌面版的原生绘图文件。
-- `framework-editable.svg`：自包含 SVG，照片已嵌入，不依赖外部路径。
-- `framework-editable-preview.png`：3072 像素宽的渲染预览。
-- `assets/`：七张照片，来自 v4 PNG 的局部裁切。
-- `framework-editable.scene.json`：对象、样式、文字及布局记录。
-- `build_editable.py`：重建 SVG/VSDX 的源脚本；依赖 Python 和 Pillow，字体度量默认使用 Linux 的 Liberation Sans。
-- `editability-report.json`：对象统计和验证范围。
+## 文件与源码
 
-运行 `python3 build_editable.py` 可重新生成 SVG、VSDX 与对象记录；PNG 预览可用 Inkscape 从 SVG 导出。日常修改直接在 Visio 中完成即可。
+请优先使用带 v2 名称的文件，避免混淆本地旧下载。framework-editable.vsdx 也已更新为本次修订版；旧提交中的下载仍是旧文件。
+
+完整包包含 VDX、VSDX、SVG、PNG、照片、对象记录、build_editable.py、visio_compat.py 和 support/。源码重新生成需要 Python、Pillow、Linux Liberation Sans 字体，并保留 assets/、support/ 和 PNG 预览。日常修改直接在 Visio 中完成即可。
+
+support/visio-base.vsdx 来自开源 vsdx 0.6.1 附带的 Visio 模板，授权声明见 support/LICENSE-vsdx.txt；图中方法对象为本次重建内容。

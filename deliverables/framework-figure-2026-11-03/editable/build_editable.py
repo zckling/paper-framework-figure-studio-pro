@@ -764,10 +764,18 @@ def main():
     stats=write_vsdx()
     (ROOT/'framework-editable.scene.json').write_text(json.dumps(dict(
         width=W,height=H,units_per_inch=UNIT,objects=SCENE),ensure_ascii=False,indent=2)+'\n')
+    # Finalize inside the complete Visio-produced shell and create the VDX
+    # fallback before advertising any VSDX produced by this builder.
+    from visio_compat import finalize
+    compatibility = finalize(ROOT)
+    stats['glued_endpoint_records'] = 0
+    stats['automatic_glue'] = False
+    stats['compatibility_revision'] = 2
+    stats['compatibility_changes'] = compatibility
     counts=Counter(s['kind'] for s in SCENE)
     stats.update(kind_counts=dict(counts),has_full_canvas_raster=False,
                  generated_with='build_editable.py',target='Visio 2013+ desktop native shapes',
-                 verification_scope='Package structure plus independent rendering; Microsoft Visio not available in this environment.')
+                 verification_scope='Visio/OPC schema plus independent rendering. Version 1 was reported corrupt by the user; Microsoft Visio is not available in this environment for validating version 2.')
     (ROOT/'editability-report.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in stats.items() if k!='shape_names_to_ids'},ensure_ascii=False))
 
