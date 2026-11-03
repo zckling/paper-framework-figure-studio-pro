@@ -1,0 +1,165 @@
+{
+  "revision": "v5",
+  "client_date": "2026-11-04",
+  "canvas": [
+    2400,
+    1640
+  ],
+  "objects": 271,
+  "kind_counts": {
+    "rect": 88,
+    "text": 74,
+    "image": 7,
+    "line": 65,
+    "ellipse": 25,
+    "snowflake": 10,
+    "poly": 2
+  },
+  "compatibility": {
+    "vsdx": {
+      "removed_transform_glue_cells": 661,
+      "native_shell": "Visio-produced vsdx 0.6.1 media template (BSD-3-Clause)",
+      "automatic_glue": false
+    },
+    "vdx": {
+      "shape_count": 271,
+      "photo_count": 7,
+      "format_namespace": "http://schemas.microsoft.com/visio/2003/core"
+    }
+  },
+  "changes": [
+    "two method columns",
+    "shared support preparation row",
+    "one shared query set between phases",
+    "query inference row",
+    "vector addition plus unit-circle glyph without text",
+    "solid support and query input paths",
+    "gold dashes only for fitted prompt dependencies"
+  ],
+  "semantic_edges": [
+    [
+      "support-set",
+      "support-encoder",
+      "image"
+    ],
+    [
+      "support-set",
+      "support-prompted-encoder",
+      "image"
+    ],
+    [
+      "support-set",
+      "support-ce-loss",
+      "labels"
+    ],
+    [
+      "shared-query-set",
+      "query-encoder",
+      "image"
+    ],
+    [
+      "shared-query-set",
+      "query-stage-1",
+      "image"
+    ],
+    [
+      "cached-source-state",
+      "class-wise-weighting",
+      "cached features"
+    ],
+    [
+      "cached-source-state",
+      "mix-geometry-card",
+      "global class means"
+    ],
+    [
+      "fitted-prompt-state",
+      "query-prompt-1",
+      "fitted parameters"
+    ],
+    [
+      "fitted-prompt-state",
+      "query-prompt-2",
+      "fitted parameters"
+    ],
+    [
+      "fitted-prompt-state",
+      "query-prompt-3",
+      "fitted parameters"
+    ],
+    [
+      "fitted-prompt-state",
+      "query-prompt-4",
+      "fitted parameters"
+    ],
+    [
+      "prototype-probability",
+      "probability-fusion",
+      "probability"
+    ],
+    [
+      "visual-probability",
+      "probability-fusion",
+      "probability"
+    ]
+  ],
+  "microsoft_visio_tested": false,
+  "notes": "Native objects are independently editable. Previous VSDX had a user-reported compatibility issue; use VDX fallback and verify in desktop Visio.",
+  "validation": {
+    "covered_xsd_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "visio/document.xml",
+      "visio/masters/masters.xml",
+      "visio/pages/pages.xml",
+      "visio/_rels/document.xml.rels",
+      "visio/masters/_rels/masters.xml.rels",
+      "visio/pages/_rels/pages.xml.rels",
+      "visio/masters/master1.xml",
+      "visio/pages/page1.xml",
+      "visio/pages/_rels/page1.xml.rels"
+    ],
+    "all_relationships_resolve": true,
+    "microsoft_visio_tested": false,
+    "vsdx_import": {
+      "application": "LibreOffice/libvisio",
+      "pages": 1,
+      "photos": 7,
+      "vector_records": 488,
+      "text_characters": 998
+    },
+    "vdx_import": {
+      "application": "LibreOffice/libvisio",
+      "pages": 1,
+      "photos": 7,
+      "vector_records": 491,
+      "text_characters": 990
+    }
+  },
+  "artifacts": {
+    "framework-v5.png": {
+      "bytes": 763584,
+      "sha256": "1d2d35d8c912d2bff311a7bdcd6a7526cd488be53453ceaa6b38ff75f87645f6"
+    },
+    "framework-v5-mix-detail.png": {
+      "bytes": 79288,
+      "sha256": "99a91b01c24fc0ae19f16b397e8454531fab3a5f22c4bd8e900de3c4ad8322fe"
+    },
+    "framework-v5.svg": {
+      "bytes": 158077,
+      "sha256": "5412a739c663f801478d29157bfd3aa1b4fd4074f45e65de8151f19586753f1e"
+    },
+    "framework-v5.pdf": {
+      "bytes": 149694,
+      "sha256": "c73f5338bd592a1ab81813a8ff720b4355ae8e0d59175aad57769407ae9813b9"
+    },
+    "framework-v5.vsdx": {
+      "bytes": 829471,
+      "sha256": "3c5198614e3864b56b6acca73611eca6edf4bd036e9ca43503017e86b243b6cf"
+    },
+    "framework-v5.vdx": {
+      "bytes": 510035,
+      "sha256": "c192e0795c99f05a30b5fbd1d5d400c20dacbd23f33d27e220b8a111581c9581"
+    }
+  }
+}
