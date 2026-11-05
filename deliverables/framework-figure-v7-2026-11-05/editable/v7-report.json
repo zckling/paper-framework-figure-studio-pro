@@ -1,0 +1,44 @@
+{
+  "revision": "v7-editable-companion",
+  "purpose": "Manually authored editable companion, not an imagegen raster",
+  "canvas": [
+    2000,
+    1450
+  ],
+  "objects": 311,
+  "kind_counts": {
+    "rect": 88,
+    "text": 124,
+    "image": 5,
+    "line": 74,
+    "ellipse": 13,
+    "snowflake": 7
+  },
+  "compatibility": {
+    "vsdx": {
+      "removed_transform_glue_cells": 755,
+      "native_shell": "Visio-produced vsdx 0.6.1 media template (BSD-3-Clause)",
+      "automatic_glue": false
+    },
+    "vdx": {
+      "shape_count": 311,
+      "photo_count": 5,
+      "format_namespace": "http://schemas.microsoft.com/visio/2003/core"
+    }
+  },
+  "microsoft_visio_tested": false,
+  "files": {
+    "framework-v7.svg": "3cccbc3049962dd25cbb336668e888f0f07edc66e19701f1295641bc144882db",
+    "framework-v7.png": "b816af9c76bc23af07f9073ca2410db3e84a39e38abeca9e764f186cf5367a68",
+    "framework-v7.pdf": "c4dd35ff83ff851fafc388b4f95f2231ac1c1991a437d85ff3be0f55f9d6262d",
+    "framework-v7.vdx": "64e776cb95cda9e43c6de97c7b49cfce5ac274fb078a00d4a3f2182d545fa38b",
+    "framework-v7.vsdx": "a39bd3bbb98ad108c0835dc4eddc47e25e0c4aa38ade64dbb9de9954de623707"
+  },
+  "print_check": {
+    "width_mm": 180,
+    "path": "validation/print-180mm-check.json",
+    "critical_labels_min_canvas_font": 25,
+    "critical_labels_min_font_pt": 6.38,
+    "critical_font_check_pass": true
+  }
+}

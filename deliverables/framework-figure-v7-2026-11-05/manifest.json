@@ -1,0 +1,122 @@
+{
+  "F01.png": {
+    "bytes": 1774122,
+    "sha256": "486842eeae781de85915513c11cfd0eefa6675b9457d46c767cfd17477dcbb2e"
+  },
+  "F02.png": {
+    "bytes": 1774317,
+    "sha256": "6ef5ac4113db62e2f3260ecd61fb967db005bc241e7eaec0d02fce564e0f5385"
+  },
+  "README.md": {
+    "bytes": 3319,
+    "sha256": "4110163a59990317e52c53431e117731c633f08a4cd45080361dbb570fec79d3"
+  },
+  "editable/README.md": {
+    "bytes": 1575,
+    "sha256": "82c9e2a5cfce262746492f5da751172abdd048add0998ba477d9870892045d0c"
+  },
+  "editable/assets/query.png": {
+    "bytes": 32963,
+    "sha256": "4988884b458a948b2dbe2dfbec7ce8345dc406f4539b18e46acd860b9c277ba2"
+  },
+  "editable/assets/support-fake-1.png": {
+    "bytes": 8048,
+    "sha256": "2f21232084e172bcc91500d71be2a158c53d195763ed25a6eca1e0bb0d0138ce"
+  },
+  "editable/assets/support-fake-2.png": {
+    "bytes": 7835,
+    "sha256": "f163e4e02c015dccfbca4b1d4ef89acbabacef5b7ea5028c111ad1b2b9cf35b7"
+  },
+  "editable/assets/support-fake-3.png": {
+    "bytes": 7416,
+    "sha256": "1649fd8ae07e3e29b72734e867478a053ef2813ec857258c96f99b029386082d"
+  },
+  "editable/assets/support-real-1.png": {
+    "bytes": 6839,
+    "sha256": "a1cd79e11d0318b029a9027cbd1cfba01c764aff94b66a882476f0b5f278ecca"
+  },
+  "editable/assets/support-real-2.png": {
+    "bytes": 5933,
+    "sha256": "ac472c46dd03e1af6d41af968839aad9b2578f05f34040f887ad4ef1cdbeb601"
+  },
+  "editable/assets/support-real-3.png": {
+    "bytes": 6988,
+    "sha256": "65f83379b801a9bb9b9790f90519af59a6d60f14f189a5cf00a4e55c28391a1e"
+  },
+  "editable/build_v7.py": {
+    "bytes": 16487,
+    "sha256": "27425497948d65877392cc95a7ff519cdf799bc1d6f1d83c2692e2e785ba78eb"
+  },
+  "editable/caption.md": {
+    "bytes": 1898,
+    "sha256": "78d10cf3c61e06f6dfe97b0185c9426cc2774d3b00404b1cd88c65c753bcebda"
+  },
+  "editable/framework-editable.scene.json": {
+    "bytes": 109840,
+    "sha256": "2676e0352391f29e74127d3db0f417eb812c55fe4a57885cb7eadb1bbfd20d7b"
+  },
+  "editable/framework-v7.pdf": {
+    "bytes": 143485,
+    "sha256": "c4dd35ff83ff851fafc388b4f95f2231ac1c1991a437d85ff3be0f55f9d6262d"
+  },
+  "editable/framework-v7.png": {
+    "bytes": 1040094,
+    "sha256": "b816af9c76bc23af07f9073ca2410db3e84a39e38abeca9e764f186cf5367a68"
+  },
+  "editable/framework-v7.svg": {
+    "bytes": 148876,
+    "sha256": "3cccbc3049962dd25cbb336668e888f0f07edc66e19701f1295641bc144882db"
+  },
+  "editable/framework-v7.vdx": {
+    "bytes": 549872,
+    "sha256": "64e776cb95cda9e43c6de97c7b49cfce5ac274fb078a00d4a3f2182d545fa38b"
+  },
+  "editable/framework-v7.vsdx": {
+    "bytes": 1088514,
+    "sha256": "a39bd3bbb98ad108c0835dc4eddc47e25e0c4aa38ade64dbb9de9954de623707"
+  },
+  "editable/support/LICENSE-vsdx.txt": {
+    "bytes": 1518,
+    "sha256": "cc7e5769d5e86981f785026ec3312dc3e2d2f6652be19541ad8b928d2a4d3b77"
+  },
+  "editable/support/visio-base.vsdx": {
+    "bytes": 20056,
+    "sha256": "f5ead22055be37b867a858cf94f1ecca4fe06d954c7c39f44cca72958a4410af"
+  },
+  "editable/v7-report.json": {
+    "bytes": 1373,
+    "sha256": "330c34af9188e638ddc5fe877af610b3c61629f9afc6a153f287b2904cc469f0"
+  },
+  "editable/validation/print-180mm-check.json": {
+    "bytes": 5048,
+    "sha256": "326b8410b6de6d0bf854575a4dc62c6b4b9c94d757c400b8d8bf97c71e9864b6"
+  },
+  "editable/validation/print-180mm-check.md": {
+    "bytes": 1714,
+    "sha256": "58952cf6157e9b5cdadf38aa7b9a90f77678b63b20fbb4caa4ccdb706fe4d1b7"
+  },
+  "editable/validation/print-180mm.pdf": {
+    "bytes": 144471,
+    "sha256": "fcd97c7fcfa7a14ff836c3591d4937113b5d2b1dbb24251853548a3863a80149"
+  },
+  "editable/validation/visio-validation.json": {
+    "bytes": 25844,
+    "sha256": "91932a3d6be3ef7c330a920e18cd230b1c8fe0a15efdcc6214963aa829152b85"
+  },
+  "editable/vector_engine.py": {
+    "bytes": 24724,
+    "sha256": "5bc3b6943938d200e78dbebfec5a5281fdd9e0e89fffd571bcad3c2d6a1ae0cf"
+  },
+  "editable/visio_compat.py": {
+    "bytes": 15035,
+    "sha256": "2b4819046463ae8c180900a044f72c971b335db30f0e18d1d84ee6e019350cdc"
+  },
+  "framework-v7-editable.zip": {
+    "bytes": 2646748,
+    "sha256": "9de1865516ddb19edc7c0c7b541164ff95a2a314b0dd82526b39b50755a0a886"
+  },
+  "framework-v7-skill-run.zip": {
+    "bytes": 9956461,
+    "sha256": "83f368baacff9faa455bdd0f1579b50a89643217bfa0d3601e2b8a2862468ca8"
+  }
+}

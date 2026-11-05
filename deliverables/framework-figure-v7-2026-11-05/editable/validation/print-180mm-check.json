@@ -1,0 +1,184 @@
+{
+  "width_mm": 180.0,
+  "height_mm": 130.5,
+  "mapping_formula": "font_pt = canvas_font_px × (180 mm / 2000 canvas units) × 72 pt/in ÷ 25.4 mm/in",
+  "scale_pt_per_canvas_unit": 0.25511811023622044,
+  "labels": [
+    {
+      "name": "support-title",
+      "text": "Support set S",
+      "canvas_font": 25.0,
+      "font_pt_at_180mm": 6.38,
+      "auxiliary": false
+    },
+    {
+      "name": "support-budget",
+      "text": "2K labeled\nimages",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "query-prototype-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "query-prototype-encoder-blocks",
+      "text": "blocks 1–12",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "query-prompt-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "query-prompt-encoder-blocks",
+      "text": "blocks 1–24",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "prototype-method-title",
+      "text": "Query-conditioned\nprototype mixing",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "cosine-difference-title",
+      "text": "Cosine similarity\ndifference",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "probability-average-title",
+      "text": "Probability average",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "probability-average-formula",
+      "text": "p(x) = ½[pₚ(q) + pᵥ(x)]",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "softmax-header",
+      "text": "Class-wise softmax",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "aggregation-header",
+      "text": "Weighted sum",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "mix-header",
+      "text": "Mix → L₂ norm",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "normalize-label-0",
+      "text": "L₂ norm",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "normalize-label-1",
+      "text": "L₂ norm",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "stage-label-1",
+      "text": "1–6",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "stage-label-4",
+      "text": "19–24",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "query-feature-symbol",
+      "text": "q ∈ ℝ¹⁰²⁴",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "prompted-feature-symbol",
+      "text": "v(x) ∈ ℝ⁷⁶⁸",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    },
+    {
+      "name": "prototype-probability",
+      "text": "pₚ(q)",
+      "canvas_font": 27,
+      "font_pt_at_180mm": 6.89,
+      "auxiliary": false
+    },
+    {
+      "name": "visual-probability",
+      "text": "pᵥ(x)",
+      "canvas_font": 27,
+      "font_pt_at_180mm": 6.89,
+      "auxiliary": false
+    },
+    {
+      "name": "cls-readout-label",
+      "text": "CLS\nreadout\nproject\nL₂ norm",
+      "canvas_font": 25,
+      "font_pt_at_180mm": 6.38,
+      "auxiliary": false
+    },
+    {
+      "name": "backprop-caption",
+      "text": "Backprop through frozen encoder",
+      "canvas_font": 25,
+      "font_pt_at_180mm": 6.38,
+      "auxiliary": false
+    },
+    {
+      "name": "update-caption",
+      "text": "Update\nprompts only",
+      "canvas_font": 26,
+      "font_pt_at_180mm": 6.63,
+      "auxiliary": false
+    }
+  ],
+  "status": "critical_labels_at_least_25_canvas_units",
+  "critical_font_check_pass": true,
+  "readability_pass_claimed": true,
+  "notes": [
+    "Key encoder, method, operation, stage, q/v dimension, probability, readout and gradient labels use at least 25 canvas units (6.38pt at 180mm); most are 26 (6.63pt). The 3600px raster size does not override these print sizes.",
+    "Auxiliary text about separate forwards, repeated P* ports, CLIP scale S versus inference15, and joint optimization has been moved into caption.md; no critical data or gradient edge was removed.",
+    "Small mathematical subscripts and auxiliary edge annotations retain smaller type. This check covers key label sizes and visual inspection, not every glyph or a journal-specific minimum. Microsoft Visio remains untested."
+  ]
+}
