@@ -1,0 +1,1192 @@
+{
+  "checked_at_utc": "2026-11-05T07:16:23.318235+00:00",
+  "scope": "Independent XSD/OPC checks and LibreOffice PDF import. Microsoft Visio has not been tested.",
+  "source_files": {
+    "framework-v6.vsdx": {
+      "bytes": 847858,
+      "sha256": "1de5c34abd8ad3bcb914973d211012731aea3425a3b78b24450f6a48286cce59"
+    },
+    "framework-v6.vdx": {
+      "bytes": 561224,
+      "sha256": "aab36d7fe97db21d66805192e8869f8103788ccd79ba100093e943d84ec254f0"
+    }
+  },
+  "schema_binding": "visio.xsd relationship namespace import is bound in memory to local shared-relationshipReference.xsd; schemas and drawing files are unchanged.",
+  "schemas": {
+    "visio": {
+      "loaded": true
+    },
+    "content_types": {
+      "loaded": true
+    },
+    "relationships": {
+      "loaded": true
+    }
+  },
+  "vsdx": {
+    "zip": {
+      "entry_count": 23,
+      "crc_bad_entry": null,
+      "duplicate_entries": []
+    },
+    "xsd_checks": [
+      {
+        "part": "[Content_Types].xml",
+        "schema": "content_types",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "_rels/.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/document.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/masters.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/pages.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/_rels/document.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/_rels/masters.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/_rels/pages.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/master1.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/page1.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/_rels/page1.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/windows.xml",
+        "schema": "visio",
+        "valid": false,
+        "errors": [
+          "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_CVC_ELT_1: Element '{http://schemas.microsoft.com/office/visio/2012/main}Windows': No matching global declaration available for the validation root."
+        ]
+      }
+    ],
+    "relationships": {
+      "count": 18,
+      "internal_count": 18,
+      "external_count": 0,
+      "targets": [
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId3",
+          "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "target": "docProps/core.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/core.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId2",
+          "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "target": "docProps/thumbnail.png",
+          "mode": "Internal",
+          "resolved_target": "docProps/thumbnail.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/document",
+          "target": "visio/document.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/document.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId5",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+          "target": "docProps/custom.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/custom.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId4",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "target": "docProps/app.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/app.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId3",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/windows",
+          "target": "windows.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/windows.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId2",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/pages",
+          "target": "pages/pages.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/pages/pages.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/masters",
+          "target": "masters/masters.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/masters.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/masters/_rels/masters.xml.rels",
+          "source": "visio/masters/masters.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/master",
+          "target": "master1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/master1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/pages.xml.rels",
+          "source": "visio/pages/pages.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/page",
+          "target": "page1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/pages/page1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/master",
+          "target": "../masters/master1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/master1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage1",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-real-1.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-real-1.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage2",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-fake-1.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-fake-1.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage3",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-real-2.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-real-2.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage4",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-fake-2.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-fake-2.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage5",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-real-3.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-real-3.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage6",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-fake-3.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-fake-3.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage7",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/query.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/query.png",
+          "target_exists": true
+        }
+      ],
+      "references": [
+        {
+          "part": "visio/masters/masters.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rId1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/pages.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rId1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage2",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage3",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage4",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage5",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage6",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage7",
+          "relationship_exists": true
+        }
+      ],
+      "all_internal_targets_resolved": true,
+      "all_references_resolved": true
+    },
+    "content_type_coverage": {
+      "missing_parts": [],
+      "dangling_overrides": []
+    },
+    "drawing_inventory": {
+      "pages": 1,
+      "shape_count": 319,
+      "text_element_count": 96,
+      "foreign_data_count": 7,
+      "media_files": [
+        "visio/media/support-real-1.png",
+        "visio/media/support-fake-1.png",
+        "visio/media/support-real-2.png",
+        "visio/media/support-fake-2.png",
+        "visio/media/support-real-3.png",
+        "visio/media/support-fake-3.png",
+        "visio/media/query.png"
+      ]
+    }
+  },
+  "vdx": {
+    "xml_well_formed": true,
+    "namespace": "http://schemas.microsoft.com/visio/2003/core",
+    "page_count": 1,
+    "shape_count": 318,
+    "foreign_data_count": 7,
+    "text_element_count": 96,
+    "xsd_scope": "The supplied visio.xsd targets VSDX 2012, not VDX 2003; VDX is checked for XML well-formedness and native import."
+  },
+  "native_imports": {
+    "vsdx": {
+      "source": "/workspace/figure-deliverables/v6/framework-v6.vsdx",
+      "pdf": "/workspace/figure-deliverables/v6/validation/native-vsdx/framework-v6.pdf",
+      "sha256": "a89665f082946498ae42c12d82cc163e4413834bc181d2d3550ff8a5fc18fb28",
+      "conversion_exit_code": 0,
+      "independent_soffice_profile": true,
+      "conversion_filter": "draw_pdf_Export",
+      "page_count": 1,
+      "pages": [
+        {
+          "index": 1,
+          "width_pt": 1199.9906005859375,
+          "height_pt": 695.9905395507812,
+          "embedded_image_count": 7,
+          "image_occurrence_count": 7,
+          "vector_drawing_count": 536,
+          "text_char_count": 864,
+          "text_span_count": 108,
+          "fonts": [
+            "LiberationSans",
+            "LiberationSans-Bold",
+            "LiberationSans-Italic",
+            "NimbusSans-Italic",
+            "NotoSans-Italic"
+          ],
+          "text_extract": "/workspace/figure-deliverables/v6/validation/native-vsdx/framework-v6.txt",
+          "formula_symbol_checks": {
+            "prototype_score": true,
+            "query_weights": true,
+            "visual_prompt_score": true,
+            "fusion": true
+          },
+          "formula_subscript_checks": [
+            {
+              "name": "cache-symbols",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "cache-symbols-run-0",
+                  "expected_text": "z",
+                  "subscript": false,
+                  "actual": {
+                    "text": "z",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      604.4879760742188,
+                      106.15753173828125
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      611.3759765625,
+                      108.6805419921875
+                    ]
+                  },
+                  "baseline_drop_pt": 2.52301025390625,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-2",
+                  "expected_text": ", μ",
+                  "subscript": false,
+                  "actual": {
+                    "text": ", μ",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      618.5479736328125,
+                      106.15753173828125
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-3",
+                  "expected_text": "c",
+                  "subscript": true,
+                  "actual": {
+                    "text": "c",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      633.77001953125,
+                      108.6805419921875
+                    ]
+                  },
+                  "baseline_drop_pt": 2.52301025390625,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "overview-direction-symbol",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "overview-direction-symbol-run-0",
+                  "expected_text": "μ̃",
+                  "subscript": false,
+                  "actual": {
+                    "text": "μ̃",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      650.0980224609375,
+                      264.841552734375
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "overview-direction-symbol-run-1",
+                  "expected_text": "c",
+                  "subscript": true,
+                  "actual": {
+                    "text": "c",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      657.666015625,
+                      267.3925476074219
+                    ]
+                  },
+                  "baseline_drop_pt": 2.550994873046875,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                },
+                {
+                  "name": "overview-direction-symbol-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      662.6270141601562,
+                      264.841552734375
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-alpha-0",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-alpha-0-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      194.28700256347656,
+                      496.6025390625
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-0-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 8.58899974822998,
+                    "origin": [
+                      201.14599609375,
+                      498.7845458984375
+                    ]
+                  },
+                  "baseline_drop_pt": 2.1820068359375,
+                  "font_size_ratio": 0.7162871839328427,
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-0-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      207.43899536132812,
+                      496.6025390625
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-alpha-1",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-alpha-1-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      194.28700256347656,
+                      562.592529296875
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-1-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 8.58899974822998,
+                    "origin": [
+                      201.14599609375,
+                      564.7755126953125
+                    ]
+                  },
+                  "baseline_drop_pt": 2.1829833984375,
+                  "font_size_ratio": 0.7162871839328427,
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-1-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      207.43899536132812,
+                      562.592529296875
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-query-softmax",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-query-softmax-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      278.47601318359375,
+                      660.6145629882812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      285.6470031738281,
+                      662.9395141601562
+                    ]
+                  },
+                  "baseline_drop_pt": 2.324951171875,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-2",
+                  "expected_text": "(q) = softmax",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q) = softmax",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      292.1390075683594,
+                      660.6145629882812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-3",
+                  "expected_text": "i",
+                  "subscript": true,
+                  "actual": {
+                    "text": "i",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      366.0379943847656,
+                      662.9395141601562
+                    ]
+                  },
+                  "baseline_drop_pt": 2.324951171875,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-4",
+                  "expected_text": "(15 qᵀz",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(15 qᵀz",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      368.0220031738281,
+                      660.6145629882812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-5",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      408.0469970703125,
+                      662.9395141601562
+                    ]
+                  },
+                  "baseline_drop_pt": 2.324951171875,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-6",
+                  "expected_text": ")",
+                  "subscript": false,
+                  "actual": {
+                    "text": ")",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      414.53900146484375,
+                      660.6145629882812
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            }
+          ],
+          "formula_subscript_checks_pass": true,
+          "green_photo_frame_count": 7,
+          "green_photo_frame_width_pt": [
+            3.0046799182891846
+          ]
+        }
+      ],
+      "structural_content_checks_pass": true,
+      "formula_typography": "PASS: eight Latin subscript runs across five formulas are separate editable text objects, use smaller font sizes, and have lower baselines in both native imports. Unicode subscripts remain visible.",
+      "renderer_png": "/workspace/figure-deliverables/v6/validation/native-vsdx/framework-v6.png",
+      "unmodified_native_import_pdf": true
+    },
+    "vdx": {
+      "source": "/workspace/figure-deliverables/v6/framework-v6.vdx",
+      "pdf": "/workspace/figure-deliverables/v6/validation/native-vdx/framework-v6.pdf",
+      "sha256": "24a8b98f18ec87036673155f1e55b778608ba3b7d1d229569aa6366098db67ae",
+      "conversion_exit_code": 0,
+      "independent_soffice_profile": true,
+      "conversion_filter": "draw_pdf_Export",
+      "page_count": 1,
+      "pages": [
+        {
+          "index": 1,
+          "width_pt": 1199.9906005859375,
+          "height_pt": 695.9905395507812,
+          "embedded_image_count": 7,
+          "image_occurrence_count": 7,
+          "vector_drawing_count": 554,
+          "text_char_count": 857,
+          "text_span_count": 103,
+          "fonts": [
+            "DejaVuSans-Oblique",
+            "NotoSans-Bold",
+            "NotoSans-Italic",
+            "NotoSans-Regular"
+          ],
+          "text_extract": "/workspace/figure-deliverables/v6/validation/native-vdx/framework-v6.txt",
+          "formula_symbol_checks": {
+            "prototype_score": true,
+            "query_weights": true,
+            "visual_prompt_score": true,
+            "fusion": true
+          },
+          "formula_subscript_checks": [
+            {
+              "name": "cache-symbols",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "cache-symbols-run-0",
+                  "expected_text": "z",
+                  "subscript": false,
+                  "actual": {
+                    "text": "z",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      604.4879760742188,
+                      106.9515380859375
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      611.3759765625,
+                      109.33251953125
+                    ]
+                  },
+                  "baseline_drop_pt": 2.3809814453125,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-2",
+                  "expected_text": ", μ",
+                  "subscript": false,
+                  "actual": {
+                    "text": ", μ",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      618.5479736328125,
+                      106.9515380859375
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "cache-symbols-run-3",
+                  "expected_text": "c",
+                  "subscript": true,
+                  "actual": {
+                    "text": "c",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      633.77001953125,
+                      109.33251953125
+                    ]
+                  },
+                  "baseline_drop_pt": 2.3809814453125,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "overview-direction-symbol",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "overview-direction-symbol-run-0",
+                  "expected_text": "μ̃",
+                  "subscript": false,
+                  "actual": {
+                    "text": "μ̃",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      650.0980224609375,
+                      265.6355285644531
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "overview-direction-symbol-run-1",
+                  "expected_text": "c",
+                  "subscript": true,
+                  "actual": {
+                    "text": "c",
+                    "size_pt": 9.892999649047852,
+                    "origin": [
+                      657.666015625,
+                      268.0445251464844
+                    ]
+                  },
+                  "baseline_drop_pt": 2.40899658203125,
+                  "font_size_ratio": 0.7166243701811988,
+                  "pass": true
+                },
+                {
+                  "name": "overview-direction-symbol-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 13.805000305175781,
+                    "origin": [
+                      662.6270141601562,
+                      265.6355285644531
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-alpha-0",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-alpha-0-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      194.28700256347656,
+                      497.310546875
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-0-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 8.58899974822998,
+                    "origin": [
+                      201.14599609375,
+                      499.32354736328125
+                    ]
+                  },
+                  "baseline_drop_pt": 2.01300048828125,
+                  "font_size_ratio": 0.7162871839328427,
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-0-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      207.43899536132812,
+                      497.310546875
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-alpha-1",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-alpha-1-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      194.28700256347656,
+                      563.301513671875
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-1-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 8.58899974822998,
+                    "origin": [
+                      201.14599609375,
+                      565.3135375976562
+                    ]
+                  },
+                  "baseline_drop_pt": 2.01202392578125,
+                  "font_size_ratio": 0.7162871839328427,
+                  "pass": true
+                },
+                {
+                  "name": "detail-alpha-1-run-2",
+                  "expected_text": "(q)",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q)",
+                    "size_pt": 11.991000175476074,
+                    "origin": [
+                      207.43899536132812,
+                      563.301513671875
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            },
+            {
+              "name": "detail-query-softmax",
+              "pass": true,
+              "runs": [
+                {
+                  "name": "detail-query-softmax-run-0",
+                  "expected_text": "α",
+                  "subscript": false,
+                  "actual": {
+                    "text": "α",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      278.47601318359375,
+                      661.3235473632812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-1",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": "ci",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      285.6470031738281,
+                      663.4495239257812
+                    ]
+                  },
+                  "baseline_drop_pt": 2.1259765625,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-2",
+                  "expected_text": "(q) = softmax",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(q) = softmax",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      292.1390075683594,
+                      661.3235473632812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-3",
+                  "expected_text": "i",
+                  "subscript": true,
+                  "actual": {
+                    "text": "i",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      366.0379943847656,
+                      663.4495239257812
+                    ]
+                  },
+                  "baseline_drop_pt": 2.1259765625,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-4",
+                  "expected_text": "(15 qᵀz",
+                  "subscript": false,
+                  "actual": {
+                    "text": "(15 qᵀz",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      368.0220031738281,
+                      661.3235473632812
+                    ]
+                  },
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-5",
+                  "expected_text": "ci",
+                  "subscript": true,
+                  "actual": {
+                    "text": " ci",
+                    "size_pt": 9.013999938964844,
+                    "origin": [
+                      408.0469970703125,
+                      663.4495239257812
+                    ]
+                  },
+                  "baseline_drop_pt": 2.1259765625,
+                  "font_size_ratio": 0.7146027992691774,
+                  "pass": true
+                },
+                {
+                  "name": "detail-query-softmax-run-6",
+                  "expected_text": ")",
+                  "subscript": false,
+                  "actual": {
+                    "text": ")",
+                    "size_pt": 12.61400032043457,
+                    "origin": [
+                      414.53900146484375,
+                      661.3235473632812
+                    ]
+                  },
+                  "pass": true
+                }
+              ]
+            }
+          ],
+          "formula_subscript_checks_pass": true,
+          "green_photo_frame_count": 7,
+          "green_photo_frame_width_pt": [
+            3.0046799182891846
+          ]
+        }
+      ],
+      "structural_content_checks_pass": true,
+      "formula_typography": "PASS: eight Latin subscript runs across five formulas are separate editable text objects, use smaller font sizes, and have lower baselines in both native imports. Unicode subscripts remain visible.",
+      "renderer_png": "/workspace/figure-deliverables/v6/validation/native-vdx/framework-v6.png",
+      "unmodified_native_import_pdf": true
+    }
+  },
+  "failures": [
+    {
+      "check": "xsd",
+      "part": "visio/windows.xml",
+      "errors": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_CVC_ELT_1: Element '{http://schemas.microsoft.com/office/visio/2012/main}Windows': No matching global declaration available for the validation root."
+      ],
+      "classification": "supplied_schema_coverage_limitation",
+      "interpretation": "The supplied visio.xsd has no global Windows declaration. This part fails validation against that schema; this alone does not establish package invalidity."
+    }
+  ],
+  "toolchain": {
+    "soffice": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "pymupdf": "1.26.6",
+    "xml_validator": "lxml.etree.XMLSchema"
+  },
+  "warnings": [
+    "LibreOffice reported Fontconfig no writable cache directories; both conversions completed. Different fallback fonts may cause small spacing differences."
+  ],
+  "limitations": [
+    {
+      "check": "native_photo_frame_appearance",
+      "format": "vsdx",
+      "classification": "LibreOffice_26.8_libvisio_import_style",
+      "green_frame_count": 7,
+      "details": "Source photo-frame is #677784 at 0.54pt; Foreign image has LinePattern=0, LineWeight=0, Geometry NoLine=1. libvisio _flushCurrentForeignData() emits an empty image style; LibreOffice 26.8 inherits graphic standard #127a02 and 0.106cm (3.00468pt). Independent temporary copies with explicit gray solid Foreign lines or Foreign Geometry removed still produce seven green frames. Native validation PDFs are unpatched. Published SVG/Inkscape PDF uses the intended thin gray frame."
+    },
+    {
+      "check": "native_photo_frame_appearance",
+      "format": "vdx",
+      "classification": "LibreOffice_26.8_libvisio_import_style",
+      "green_frame_count": 7,
+      "details": "Source photo-frame is #677784 at 0.54pt; Foreign image has LinePattern=0, LineWeight=0, Geometry NoLine=1. libvisio _flushCurrentForeignData() emits an empty image style; LibreOffice 26.8 inherits graphic standard #127a02 and 0.106cm (3.00468pt). Independent temporary copies with explicit gray solid Foreign lines or Foreign Geometry removed still produce seven green frames. Native validation PDFs are unpatched. Published SVG/Inkscape PDF uses the intended thin gray frame."
+    }
+  ],
+  "scene": {
+    "object_count": 318,
+    "text_object_count": 96,
+    "independent_subscript_formula_groups": 5
+  },
+  "summary": {
+    "status": "structural_and_subscript_checks_pass_with_documented_importer_and_schema_limits",
+    "vsdx_xsd_passed_parts": 11,
+    "vsdx_xsd_failed_parts": [
+      "visio/windows.xml"
+    ],
+    "opc_relationship_count": 18,
+    "opc_relationship_targets_resolved": true,
+    "opc_relationship_references_resolved": true,
+    "native_vsdx_content_pass": true,
+    "native_vdx_content_pass": true,
+    "both_native_subscripts_pass": true,
+    "schema_coverage_failure_count": 1,
+    "importer_appearance_limitation_count": 2,
+    "microsoft_visio_tested": false
+  }
+}

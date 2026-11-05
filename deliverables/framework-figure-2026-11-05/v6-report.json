@@ -1,0 +1,50 @@
+{
+  "revision": "v6",
+  "client_date": "2026-11-05",
+  "canvas": [
+    2000,
+    1160
+  ],
+  "objects": 318,
+  "kind_counts": {
+    "rect": 94,
+    "text": 96,
+    "image": 7,
+    "line": 79,
+    "ellipse": 30,
+    "snowflake": 10,
+    "poly": 2
+  },
+  "compatibility": {
+    "vsdx": {
+      "removed_transform_glue_cells": 792,
+      "native_shell": "Visio-produced vsdx 0.6.1 media template (BSD-3-Clause)",
+      "automatic_glue": false
+    },
+    "vdx": {
+      "shape_count": 318,
+      "photo_count": 7,
+      "format_namespace": "http://schemas.microsoft.com/visio/2003/core"
+    }
+  },
+  "design": "compact query overview + support inset + A/B mechanism details",
+  "method_constraints": [
+    "one source support set",
+    "one query set",
+    "two distinct query forward paths",
+    "support-only prompt fitting",
+    "per-class query weights",
+    "local vectors not renormalized before mixing",
+    "two prompts replaced at four stages",
+    "fixed equal probability average"
+  ],
+  "microsoft_visio_tested": false,
+  "pdf_validation": {
+    "renderer": "Inkscape",
+    "pages": 1,
+    "photos": 7,
+    "vector_drawings": 275,
+    "text_characters": 848
+  },
+  "editable_math": "Latin mathematical indices are separate positioned text objects for consistent rendering."
+}
