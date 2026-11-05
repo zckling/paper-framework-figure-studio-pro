@@ -1,0 +1,1018 @@
+{
+  "checked_at_utc": "2026-11-05T08:57:18.990231+00:00",
+  "scope": "Independent XSD/OPC checks and LibreOffice PDF import. Microsoft Visio has not been tested.",
+  "source_files": {
+    "framework-v8.vsdx": {
+      "bytes": 1212823,
+      "sha256": "24c2c41a6d7d6ecd1751719a9d5d20d5cb70e4f24196ef4711d3a9079b259413"
+    },
+    "framework-v8.vdx": {
+      "bytes": 563845,
+      "sha256": "c85a0c70636e548a793d8284f76f38ecc104d144d551993ef1bbe513d59f557c"
+    }
+  },
+  "schema_binding": "visio.xsd relationship namespace import is bound in memory to local shared-relationshipReference.xsd; schemas and drawing files are unchanged.",
+  "schemas": {
+    "visio": {
+      "loaded": true
+    },
+    "content_types": {
+      "loaded": true
+    },
+    "relationships": {
+      "loaded": true
+    }
+  },
+  "vsdx": {
+    "zip": {
+      "entry_count": 21,
+      "crc_bad_entry": null,
+      "duplicate_entries": []
+    },
+    "xsd_checks": [
+      {
+        "part": "[Content_Types].xml",
+        "schema": "content_types",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "_rels/.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/document.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/masters.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/pages.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/_rels/document.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/_rels/masters.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/_rels/pages.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/masters/master1.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/page1.xml",
+        "schema": "visio",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/pages/_rels/page1.xml.rels",
+        "schema": "relationships",
+        "valid": true,
+        "errors": []
+      },
+      {
+        "part": "visio/windows.xml",
+        "schema": "visio",
+        "valid": false,
+        "errors": [
+          "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_CVC_ELT_1: Element '{http://schemas.microsoft.com/office/visio/2012/main}Windows': No matching global declaration available for the validation root."
+        ]
+      }
+    ],
+    "relationships": {
+      "count": 16,
+      "internal_count": 16,
+      "external_count": 0,
+      "targets": [
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId3",
+          "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "target": "docProps/core.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/core.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId2",
+          "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "target": "docProps/thumbnail.png",
+          "mode": "Internal",
+          "resolved_target": "docProps/thumbnail.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/document",
+          "target": "visio/document.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/document.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId5",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+          "target": "docProps/custom.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/custom.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "_rels/.rels",
+          "source": "",
+          "id": "rId4",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "target": "docProps/app.xml",
+          "mode": "Internal",
+          "resolved_target": "docProps/app.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId3",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/windows",
+          "target": "windows.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/windows.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId2",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/pages",
+          "target": "pages/pages.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/pages/pages.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/_rels/document.xml.rels",
+          "source": "visio/document.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/masters",
+          "target": "masters/masters.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/masters.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/masters/_rels/masters.xml.rels",
+          "source": "visio/masters/masters.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/master",
+          "target": "master1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/master1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/pages.xml.rels",
+          "source": "visio/pages/pages.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/page",
+          "target": "page1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/pages/page1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rId1",
+          "type": "http://schemas.microsoft.com/visio/2010/relationships/master",
+          "target": "../masters/master1.xml",
+          "mode": "Internal",
+          "resolved_target": "visio/masters/master1.xml",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage1",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-real-1.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-real-1.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage2",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-real-2.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-real-2.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage3",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-fake-1.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-fake-1.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage4",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/support-fake-2.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/support-fake-2.png",
+          "target_exists": true
+        },
+        {
+          "relationship_part": "visio/pages/_rels/page1.xml.rels",
+          "source": "visio/pages/page1.xml",
+          "id": "rIdImage5",
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "target": "../media/query.png",
+          "mode": "Internal",
+          "resolved_target": "visio/media/query.png",
+          "target_exists": true
+        }
+      ],
+      "references": [
+        {
+          "part": "visio/masters/masters.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rId1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/pages.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rId1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage1",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage2",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage3",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage4",
+          "relationship_exists": true
+        },
+        {
+          "part": "visio/pages/page1.xml",
+          "element": "Rel",
+          "attribute": "id",
+          "id": "rIdImage5",
+          "relationship_exists": true
+        }
+      ],
+      "all_internal_targets_resolved": true,
+      "all_references_resolved": true
+    },
+    "content_type_coverage": {
+      "missing_parts": [],
+      "dangling_overrides": []
+    },
+    "drawing_inventory": {
+      "pages": 1,
+      "shape_count": 314,
+      "text_element_count": 130,
+      "foreign_data_count": 5,
+      "media_files": [
+        "visio/media/support-real-1.png",
+        "visio/media/support-real-2.png",
+        "visio/media/support-fake-1.png",
+        "visio/media/support-fake-2.png",
+        "visio/media/query.png"
+      ]
+    }
+  },
+  "vdx": {
+    "xml_well_formed": true,
+    "namespace": "http://schemas.microsoft.com/visio/2003/core",
+    "page_count": 1,
+    "shape_count": 313,
+    "foreign_data_count": 5,
+    "text_element_count": 130,
+    "xsd_scope": "The supplied visio.xsd targets VSDX 2012, not VDX 2003; VDX is checked for XML well-formedness and native import."
+  },
+  "native_imports": {
+    "vsdx": {
+      "pages": 1,
+      "images": 5,
+      "image_occurrences": 5,
+      "drawings": 391,
+      "text_chars": 1348,
+      "label_checks": {
+        "Labeled source": true,
+        "2K images": true,
+        "Four prompt groups": true,
+        "2 tokens per stage": true,
+        "Save": true,
+        "Load": true,
+        "Query inference": true,
+        "no parameter updates": true,
+        "unseen generators": true,
+        "Support features": true,
+        "Class prototypes": true,
+        "Native scale": true,
+        "Probability average": true,
+        "Within-class weighting": true,
+        "not normalized before mixing": true,
+        "Drop prompt states": true,
+        "CLIP CLS readout": true,
+        "768-D": true,
+        "8,192": true
+      },
+      "subscript_checks": [
+        {
+          "name": "cache-support-symbols-run-0",
+          "text": "{z",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-support-symbols-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.3170166015625,
+          "font_size_ratio": 0.7228333155314127
+        },
+        {
+          "name": "cache-support-symbols-run-2",
+          "text": "}",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-mu-symbol-run-0",
+          "text": "μ",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-mu-symbol-run-1",
+          "text": "c",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.54302978515625,
+          "font_size_ratio": 0.7193476273332372
+        },
+        {
+          "name": "prototype-probability-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-probability-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.7979736328125,
+          "font_size_ratio": 0.7208584255575179
+        },
+        {
+          "name": "prototype-probability-run-2",
+          "text": "(x)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "visual-probability-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "visual-probability-run-1",
+          "text": "V",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.798004150390625,
+          "font_size_ratio": 0.7208584255575179
+        },
+        {
+          "name": "visual-probability-run-2",
+          "text": "(x)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-0",
+          "text": "p(x) = ½(p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.089996337890625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "probability-average-formula-run-2",
+          "text": "+p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-3",
+          "text": "V",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.089996337890625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "probability-average-formula-run-4",
+          "text": ")",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-0-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-0-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.09002685546875,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "near-query-alpha-0-run-2",
+          "text": "(q)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-1-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-1-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.11798095703125,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "near-query-alpha-1-run-2",
+          "text": "(q)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.0899658203125,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-2",
+          "text": "(q)=softmax",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-3",
+          "text": "i",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.0899658203125,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-4",
+          "text": "(β qᵀz",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-5",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.0899658203125,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-6",
+          "text": ")",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "local-not-renormalized-run-0",
+          "text": "m",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "local-not-renormalized-run-1",
+          "text": "c",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.09002685546875,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "local-not-renormalized-run-2",
+          "text": "(q) is not normalized before mixing.",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-score-formula-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-score-formula-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.3170166015625,
+          "font_size_ratio": 0.7228333155314127
+        },
+        {
+          "name": "prototype-score-formula-run-2",
+          "text": "(x)=σ(γ qᵀ(μ̃₁(q)−μ̃₀(q)))",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        }
+      ],
+      "all_subscripts_pass": true,
+      "calligraphic_source_set_present": true,
+      "source_sha256": "24c2c41a6d7d6ecd1751719a9d5d20d5cb70e4f24196ef4711d3a9079b259413",
+      "libreoffice_default_green_frame_count": 5,
+      "microsoft_visio_tested": false,
+      "structural_content_pass": true
+    },
+    "vdx": {
+      "pages": 1,
+      "images": 5,
+      "image_occurrences": 5,
+      "drawings": 417,
+      "text_chars": 1351,
+      "label_checks": {
+        "Labeled source": true,
+        "2K images": true,
+        "Four prompt groups": true,
+        "2 tokens per stage": true,
+        "Save": true,
+        "Load": true,
+        "Query inference": true,
+        "no parameter updates": true,
+        "unseen generators": true,
+        "Support features": true,
+        "Class prototypes": true,
+        "Native scale": true,
+        "Probability average": true,
+        "Within-class weighting": true,
+        "not normalized before mixing": true,
+        "Drop prompt states": true,
+        "CLIP CLS readout": true,
+        "768-D": true,
+        "8,192": true
+      },
+      "subscript_checks": [
+        {
+          "name": "cache-support-symbols-run-0",
+          "text": "{z",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-support-symbols-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.03302001953125,
+          "font_size_ratio": 0.7228333155314127
+        },
+        {
+          "name": "cache-support-symbols-run-2",
+          "text": "}",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-mu-symbol-run-0",
+          "text": "μ",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "cache-mu-symbol-run-1",
+          "text": "c",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.23199462890625,
+          "font_size_ratio": 0.7193476273332372
+        },
+        {
+          "name": "prototype-probability-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-probability-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.4580078125,
+          "font_size_ratio": 0.7208584255575179
+        },
+        {
+          "name": "prototype-probability-run-2",
+          "text": "(x)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "visual-probability-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "visual-probability-run-1",
+          "text": "V",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.4580078125,
+          "font_size_ratio": 0.7208584255575179
+        },
+        {
+          "name": "visual-probability-run-2",
+          "text": "(x)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-0",
+          "text": "p(x) = ½(p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.777984619140625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "probability-average-formula-run-2",
+          "text": "+p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "probability-average-formula-run-3",
+          "text": "V",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.777984619140625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "probability-average-formula-run-4",
+          "text": ")",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-0-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-0-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.77801513671875,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "near-query-alpha-0-run-2",
+          "text": "(q)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-1-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "near-query-alpha-1-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.8060302734375,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "near-query-alpha-1-run-2",
+          "text": "(q)",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-0",
+          "text": "α",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-1",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.7769775390625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-2",
+          "text": "(q)=softmax",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-3",
+          "text": "i",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.7769775390625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-4",
+          "text": "(β qᵀz",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "classwise-softmax-formula-run-5",
+          "text": "ci",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.7769775390625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "classwise-softmax-formula-run-6",
+          "text": ")",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "local-not-renormalized-run-0",
+          "text": "m",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "local-not-renormalized-run-1",
+          "text": "c",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 2.7779541015625,
+          "font_size_ratio": 0.7200904325400099
+        },
+        {
+          "name": "local-not-renormalized-run-2",
+          "text": "(q) is not normalized before mixing.",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-score-formula-run-0",
+          "text": "p",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        },
+        {
+          "name": "prototype-score-formula-run-1",
+          "text": "P",
+          "subscript": true,
+          "found": true,
+          "pass": true,
+          "baseline_drop": 3.03302001953125,
+          "font_size_ratio": 0.7228333155314127
+        },
+        {
+          "name": "prototype-score-formula-run-2",
+          "text": "(x)=σ(γ qᵀ(μ̃₁(q)−μ̃₀(q)))",
+          "subscript": false,
+          "found": true,
+          "pass": true
+        }
+      ],
+      "all_subscripts_pass": true,
+      "calligraphic_source_set_present": true,
+      "source_sha256": "c85a0c70636e548a793d8284f76f38ecc104d144d551993ef1bbe513d59f557c",
+      "libreoffice_default_green_frame_count": 5,
+      "microsoft_visio_tested": false,
+      "structural_content_pass": true
+    }
+  },
+  "failures": [
+    {
+      "check": "xsd",
+      "part": "visio/windows.xml",
+      "errors": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_CVC_ELT_1: Element '{http://schemas.microsoft.com/office/visio/2012/main}Windows': No matching global declaration available for the validation root."
+      ],
+      "classification": "schema_coverage"
+    }
+  ],
+  "limitations": [
+    {
+      "classification": "schema_coverage",
+      "part": "visio/windows.xml",
+      "details": "The supplied schema does not declare the Windows root. It is preserved from a native Visio template and parses as XML."
+    },
+    {
+      "classification": "unavailable_application",
+      "details": "Microsoft Visio is not installed and has not been tested."
+    },
+    {
+      "classification": "LibreOffice_26.8_libvisio_import_style",
+      "format": "vsdx",
+      "details": "Importer adds default green borders to5 photos despite source Foreign LinePattern0. The published SVG/Inkscape exports retain thin gray outlines; native PDFs are unmodified."
+    },
+    {
+      "classification": "LibreOffice_26.8_libvisio_import_style",
+      "format": "vdx",
+      "details": "Importer adds default green borders to5 photos despite source Foreign LinePattern0. The published SVG/Inkscape exports retain thin gray outlines; native PDFs are unmodified."
+    }
+  ],
+  "inkscape_pdf": {
+    "pages": 1,
+    "images": 5,
+    "drawings": 228,
+    "text_chars": 1341,
+    "calligraphic_source_set_present": true
+  },
+  "summary": {
+    "objects": 313,
+    "native_vsdx_pass": true,
+    "native_vdx_pass": true,
+    "all_relationships_valid": true,
+    "schema_passed_parts": 11,
+    "schema_coverage_limits": 1,
+    "microsoft_visio_tested": false
+  }
+}

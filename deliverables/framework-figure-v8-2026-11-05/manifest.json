@@ -1,0 +1,130 @@
+{
+  "README-editor.md": {
+    "bytes": 1757,
+    "sha256": "3b7a5afbe9a5394d05fd1af1ba4b85c0a78ccc1ff2120367721a2af78664c9eb"
+  },
+  "README.md": {
+    "bytes": 3630,
+    "sha256": "1914d0183aa04abee567c3a34a4fc468da60912dbca87cd99a695b89041855bf"
+  },
+  "assets/query.png": {
+    "bytes": 32963,
+    "sha256": "4988884b458a948b2dbe2dfbec7ce8345dc406f4539b18e46acd860b9c277ba2"
+  },
+  "assets/support-fake-1.png": {
+    "bytes": 8048,
+    "sha256": "2f21232084e172bcc91500d71be2a158c53d195763ed25a6eca1e0bb0d0138ce"
+  },
+  "assets/support-fake-2.png": {
+    "bytes": 7835,
+    "sha256": "f163e4e02c015dccfbca4b1d4ef89acbabacef5b7ea5028c111ad1b2b9cf35b7"
+  },
+  "assets/support-fake-3.png": {
+    "bytes": 7416,
+    "sha256": "1649fd8ae07e3e29b72734e867478a053ef2813ec857258c96f99b029386082d"
+  },
+  "assets/support-real-1.png": {
+    "bytes": 6839,
+    "sha256": "a1cd79e11d0318b029a9027cbd1cfba01c764aff94b66a882476f0b5f278ecca"
+  },
+  "assets/support-real-2.png": {
+    "bytes": 5933,
+    "sha256": "ac472c46dd03e1af6d41af968839aad9b2578f05f34040f887ad4ef1cdbeb601"
+  },
+  "assets/support-real-3.png": {
+    "bytes": 6988,
+    "sha256": "65f83379b801a9bb9b9790f90519af59a6d60f14f189a5cf00a4e55c28391a1e"
+  },
+  "build_v8.py": {
+    "bytes": 16389,
+    "sha256": "4f80bdbf6625340e29f5f69e4d287a7207d09e0860558e9eef183b65ddcba7b8"
+  },
+  "caption.md": {
+    "bytes": 5349,
+    "sha256": "2f4505f2e432e48ff1587562f76a815c9534781ea6c4fd1e46fc62f5b6551e31"
+  },
+  "framework-editable.scene.json": {
+    "bytes": 107510,
+    "sha256": "69b7b5829ed664f7d69faac0bb2e7df1fd32f5b2e4d11408b4da0d004557c7d2"
+  },
+  "framework-v8-editable.zip": {
+    "bytes": 2912107,
+    "sha256": "157d3d1d5d8f9c8cbb39abea248d1714912b1ab2ef25e244f25a6c2f3f0495ec"
+  },
+  "framework-v8-skill-run.zip": {
+    "bytes": 7453112,
+    "sha256": "f6c42cd49f8f1563b6958f909ede417c72c9cc62fdc182c5dc9615f466f124e2"
+  },
+  "framework-v8.pdf": {
+    "bytes": 147233,
+    "sha256": "b5a7cf8fc129c32db4316f02952d0acf9faa1d64d40b1f0f8c45af417c937a11"
+  },
+  "framework-v8.png": {
+    "bytes": 1161313,
+    "sha256": "156509f3fb5e1d34dd2a2805dad401be2f6068497b7cc668c2cf4d936eaa1fc1"
+  },
+  "framework-v8.svg": {
+    "bytes": 149219,
+    "sha256": "95373710006909bc0ca381c02ed24fe8a2c9c7449dec407b08e52ce4cf85990c"
+  },
+  "framework-v8.vdx": {
+    "bytes": 563845,
+    "sha256": "c85a0c70636e548a793d8284f76f38ecc104d144d551993ef1bbe513d59f557c"
+  },
+  "framework-v8.vsdx": {
+    "bytes": 1212823,
+    "sha256": "24c2c41a6d7d6ecd1751719a9d5d20d5cb70e4f24196ef4711d3a9079b259413"
+  },
+  "imagegen-preview.png": {
+    "bytes": 1796657,
+    "sha256": "e82532368e9c2209f18d93f0400b06861378473226a0ffa4778bb76d36915f66"
+  },
+  "support/LICENSE-vsdx.txt": {
+    "bytes": 1518,
+    "sha256": "cc7e5769d5e86981f785026ec3312dc3e2d2f6652be19541ad8b928d2a4d3b77"
+  },
+  "support/visio-base.vsdx": {
+    "bytes": 20056,
+    "sha256": "f5ead22055be37b867a858cf94f1ecca4fe06d954c7c39f44cca72958a4410af"
+  },
+  "v8-report.json": {
+    "bytes": 1530,
+    "sha256": "b4ab6c707a047935878916f60d511920562578b873179166b78e5a18a563df77"
+  },
+  "validation/finalize_validation.py": {
+    "bytes": 5063,
+    "sha256": "99204412e205a675c8a1b21f1be5b1b00c50624c83025d4e31c91c3a66ab2c8e"
+  },
+  "validation/make_print_check.py": {
+    "bytes": 4471,
+    "sha256": "943105b4336ca557d9f95deff628664e3b5646c1ed3ea1d27e473d10eb3951bb"
+  },
+  "validation/print-180mm-check.json": {
+    "bytes": 22918,
+    "sha256": "6c07ba6ad1eee8073d5ddcb49e6501b44e8eddc39d237f63d97570a04175d48d"
+  },
+  "validation/print-180mm-check.md": {
+    "bytes": 5267,
+    "sha256": "e7ba39395abf7283c85a8777fa42f910479d9cedaa74c0b978e3689cad453766"
+  },
+  "validation/print-180mm.pdf": {
+    "bytes": 148409,
+    "sha256": "1e13f023558d293b829035f66ff2d4b10119196e14ab08cc29580c10fac550b3"
+  },
+  "validation/validate_visio.py": {
+    "bytes": 7409,
+    "sha256": "e6969c064b5189ebd82b8cc8b9335b5df6b20eba3a9bb06dc438ab5dce4a1551"
+  },
+  "validation/visio-validation.json": {
+    "bytes": 30184,
+    "sha256": "a27f13641803c4ee4a2ca93baa573239ba4b3c475d0898ddcfe1f019f6070dfc"
+  },
+  "vector_engine.py": {
+    "bytes": 24724,
+    "sha256": "5bc3b6943938d200e78dbebfec5a5281fdd9e0e89fffd571bcad3c2d6a1ae0cf"
+  },
+  "visio_compat.py": {
+    "bytes": 15035,
+    "sha256": "de9e6af74593d5e4dbf0fb1e13e99aec50d4068fe4c7448c501af2f5258c01d2"
+  }
+}

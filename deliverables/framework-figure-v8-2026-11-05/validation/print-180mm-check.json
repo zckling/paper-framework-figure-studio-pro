@@ -1,0 +1,1032 @@
+{
+  "width_mm": 180.0,
+  "height_mm": 127.8,
+  "scale_pt_per_canvas_unit": 0.25511811023622044,
+  "formula": "font_pt=canvas_font×(180/width_canvas)×72/25.4",
+  "main_label_count": 43,
+  "main_min_pt": 8.164,
+  "main_max_pt": 9.057,
+  "auxiliary_label_count": 62,
+  "auxiliary_min_pt": 7.143,
+  "main_check_pass": true,
+  "auxiliary_check_pass": true,
+  "mathematical_indices_use_natural_smaller_type": [
+    {
+      "name": "cache-support-symbols-run-1",
+      "text": "ci",
+      "font_pt": 5.511
+    },
+    {
+      "name": "cache-mu-symbol-run-1",
+      "text": "c",
+      "font_pt": 5.878
+    },
+    {
+      "name": "prototype-probability-run-1",
+      "text": "P",
+      "font_pt": 6.245
+    },
+    {
+      "name": "visual-probability-run-1",
+      "text": "V",
+      "font_pt": 6.245
+    },
+    {
+      "name": "probability-average-formula-run-1",
+      "text": "P",
+      "font_pt": 5.143
+    },
+    {
+      "name": "probability-average-formula-run-3",
+      "text": "V",
+      "font_pt": 5.143
+    },
+    {
+      "name": "near-query-alpha-0-run-1",
+      "text": "ci",
+      "font_pt": 5.143
+    },
+    {
+      "name": "near-query-alpha-1-run-1",
+      "text": "ci",
+      "font_pt": 5.143
+    },
+    {
+      "name": "classwise-softmax-formula-run-1",
+      "text": "ci",
+      "font_pt": 5.143
+    },
+    {
+      "name": "classwise-softmax-formula-run-3",
+      "text": "i",
+      "font_pt": 5.143
+    },
+    {
+      "name": "classwise-softmax-formula-run-5",
+      "text": "ci",
+      "font_pt": 5.143
+    },
+    {
+      "name": "local-not-renormalized-run-1",
+      "text": "c",
+      "font_pt": 5.143
+    },
+    {
+      "name": "prototype-score-formula-run-1",
+      "text": "P",
+      "font_pt": 5.511
+    }
+  ],
+  "all_labels": [
+    {
+      "name": "overview-title",
+      "text": "(a) Overview",
+      "role": "main",
+      "font_canvas": 35.5,
+      "font_pt": 9.057,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "adaptation-title",
+      "text": "Support-set adaptation",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "adaptation-frequency",
+      "text": "Once per support set",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "source-support-title",
+      "text": "Labeled source\nsupport 𝒮",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-budget",
+      "text": "2K images",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-class-real",
+      "text": "K real",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-ellipsis-real",
+      "text": "…",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-class-fake",
+      "text": "K fake",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-ellipsis-fake",
+      "text": "…",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "trainable-P-label",
+      "text": "Trainable\nP",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "prompt-group-definition",
+      "text": "Four prompt groups\n2 tokens per stage",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-fit-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-fit-encoder-blocks",
+      "text": "blocks 1–24",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "training-image-feature-label",
+      "text": "image feature",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "native-logits-title",
+      "text": "Cosine logits",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "native-logits-scale",
+      "text": "Native scale S",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "training-text-anchor-label",
+      "text": "Fixed t₀, t₁",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-ce-label",
+      "text": "CE",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-label-y",
+      "text": "y",
+      "role": "auxiliary",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "gradient-caption",
+      "text": "Gradients through frozen backbone; update P only",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "save-prompts-label",
+      "text": "Save P*",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "trainable-parameter-budget",
+      "text": "8,192 parameters\noptimized on support",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "support-cache-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-cache-encoder-blocks",
+      "text": "blocks 1–12",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-cls-normalize-label",
+      "text": "CLS\nL₂ norm",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "support-cache-title",
+      "text": "Support cache",
+      "role": "main",
+      "font_canvas": 33.75,
+      "font_pt": 8.61,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "cache-feature-group-label",
+      "text": "Support features",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "cache-prototype-group-label",
+      "text": "Class prototypes",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "query-protocol",
+      "text": "Query inference · no parameter updates",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-source-title",
+      "text": "Query x",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-generator-protocol",
+      "text": "Real + fakes from\nunseen generators",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "query-prototype-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-prototype-encoder-blocks",
+      "text": "blocks 1–12",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-prompted-encoder-title",
+      "text": "CLIP ViT-L/14",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-prompted-encoder-blocks",
+      "text": "blocks 1–24",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-cls-normalize-label",
+      "text": "CLS\nL₂ norm",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "query-q-symbol",
+      "text": "q ∈ ℝ¹⁰²⁴",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "prototype-method-title",
+      "text": "Query-conditioned\nprototype mixing",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "prototype-detail-anchor-text",
+      "text": "(b)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "fixed-prompt-inference-state",
+      "text": "Fixed P*",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "load-prompts-label",
+      "text": "Load P*",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "prompt-detail-anchor-text",
+      "text": "(c)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "query-v-symbol",
+      "text": "v(x) ∈ ℝ⁷⁶⁸",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "cosine-difference-title",
+      "text": "Cosine difference",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "cosine-difference-formula",
+      "text": "vᵀt₁ − vᵀt₀",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "query-fixed-text-label",
+      "text": "Fixed t₀, t₁",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "visual-score-scale",
+      "text": "×γ → σ",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "probability-average-title",
+      "text": "Probability\naverage",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "decision-rule",
+      "text": "p(x) > 0.5: Fake",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "prototype-detail-title",
+      "text": "(b) Prototype mixing",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "q-feature-definition",
+      "text": "q=f₁₂(x), ‖q‖₂=1",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "weighting-header",
+      "text": "Within-class\nweighting",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "aggregation-header",
+      "text": "Weighted sum",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "mix-header",
+      "text": "Mix → L₂ norm",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "detail-query-label",
+      "text": "q",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "class-tag-0",
+      "text": "Real",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "weighted-sum-label-0",
+      "text": "Σ",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "local-vector-label-0",
+      "text": "m₀(q)",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "local-half-0",
+      "text": "0.5",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "global-prototype-label-0",
+      "text": "μ₀",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "global-half-0",
+      "text": "0.5",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "mix-plus-label-0",
+      "text": "+",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "l2-norm-label-0",
+      "text": "L₂ norm",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "dynamic-prototype-label-0",
+      "text": "μ̃₀(q)",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "class-tag-1",
+      "text": "Fake",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "weighted-sum-label-1",
+      "text": "Σ",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "local-vector-label-1",
+      "text": "m₁(q)",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "local-half-1",
+      "text": "0.5",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "global-prototype-label-1",
+      "text": "μ₁",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "global-half-1",
+      "text": "0.5",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "mix-plus-label-1",
+      "text": "+",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "l2-norm-label-1",
+      "text": "L₂ norm",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "dynamic-prototype-label-1",
+      "text": "μ̃₁(q)",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "prompt-detail-title",
+      "text": "(c) Stage-wise prompt replacement",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "frozen-stage-group",
+      "text": "Frozen CLIP backbone",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "learned-stage-label-1",
+      "text": "P₁*",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "stage-label-1",
+      "text": "1–6",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "learned-stage-label-2",
+      "text": "P₂*",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "stage-label-2",
+      "text": "7–12",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "learned-stage-label-3",
+      "text": "P₃*",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "stage-label-3",
+      "text": "13–18",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "learned-stage-label-4",
+      "text": "P₄*",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "stage-label-4",
+      "text": "19–24",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "clip-readout-label",
+      "text": "CLIP CLS readout\n768-D · normalized",
+      "role": "main",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "persistent-image-token-label",
+      "text": "CLS + image tokens continue",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-output-title",
+      "text": "Output tokens",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-drop-title",
+      "text": "Drop prompt states",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-insert-title",
+      "text": "Insert Pₛ₊₁*",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-output-roles",
+      "text": "CLS · state · image",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-kept-roles",
+      "text": "Keep CLS + image",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "zoom-next-input",
+      "text": "Next-stage input",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "legend-real-label",
+      "text": "Real",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "legend-fake-label",
+      "text": "Fake",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "legend-prompt-label",
+      "text": "Prompts",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "legend-frozen-label",
+      "text": "Frozen",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "cache-support-symbols",
+      "text": "{zci}",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "cache-mu-symbol",
+      "text": "μc",
+      "role": "auxiliary",
+      "font_canvas": 32,
+      "font_pt": 8.164,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "prototype-probability",
+      "text": "pP(x)",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "visual-probability",
+      "text": "pV(x)",
+      "role": "main",
+      "font_canvas": 34,
+      "font_pt": 8.674,
+      "minimum_pt": 8,
+      "pass": true
+    },
+    {
+      "name": "probability-average-formula",
+      "text": "p(x) = ½(pP+pV)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "near-query-alpha-0",
+      "text": "αci(q)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "near-query-alpha-1",
+      "text": "αci(q)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "classwise-softmax-formula",
+      "text": "αci(q)=softmaxi(β qᵀzci)",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "local-not-renormalized",
+      "text": "mc(q) is not normalized before mixing.",
+      "role": "auxiliary",
+      "font_canvas": 28,
+      "font_pt": 7.143,
+      "minimum_pt": 7,
+      "pass": true
+    },
+    {
+      "name": "prototype-score-formula",
+      "text": "pP(x)=σ(γ qᵀ(μ̃₁(q)−μ̃₀(q)))",
+      "role": "auxiliary",
+      "font_canvas": 30,
+      "font_pt": 7.654,
+      "minimum_pt": 7,
+      "pass": true
+    }
+  ],
+  "notes": [
+    "All base-size ordinary labels are checked, not just a selected subset. Mathematical subscripts keep their natural reduced size.",
+    "The physical-width PDF is180mm wide; raster pixel count is not a substitute for the physical type-size calculation.",
+    "Visual spacing and native import are checked separately; no claim of Microsoft Visio testing."
+  ]
+}

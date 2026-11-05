@@ -1,0 +1,49 @@
+{
+  "revision": "v8-editable-main",
+  "purpose": "One manually authored editable main figure",
+  "canvas": [
+    2000,
+    1420
+  ],
+  "objects": 313,
+  "kind_counts": {
+    "rect": 90,
+    "text": 130,
+    "image": 5,
+    "line": 69,
+    "ellipse": 13,
+    "snowflake": 6
+  },
+  "compatibility": {
+    "vsdx": {
+      "removed_transform_glue_cells": 727,
+      "native_shell": "Visio-produced vsdx 0.6.1 media template (BSD-3-Clause)",
+      "automatic_glue": false
+    },
+    "vdx": {
+      "shape_count": 313,
+      "photo_count": 5,
+      "format_namespace": "http://schemas.microsoft.com/visio/2003/core"
+    }
+  },
+  "microsoft_visio_tested": false,
+  "files": {
+    "framework-v8.svg": "95373710006909bc0ca381c02ed24fe8a2c9c7449dec407b08e52ce4cf85990c",
+    "framework-v8.png": "156509f3fb5e1d34dd2a2805dad401be2f6068497b7cc668c2cf4d936eaa1fc1",
+    "framework-v8.pdf": "b5a7cf8fc129c32db4316f02952d0acf9faa1d64d40b1f0f8c45af417c937a11",
+    "framework-v8.vdx": "c85a0c70636e548a793d8284f76f38ecc104d144d551993ef1bbe513d59f557c",
+    "framework-v8.vsdx": "24c2c41a6d7d6ecd1751719a9d5d20d5cb70e4f24196ef4711d3a9079b259413"
+  },
+  "print_check": {
+    "width_mm": 180.0,
+    "height_mm": 127.8,
+    "main_label_count": 43,
+    "main_min_pt": 8.164,
+    "main_max_pt": 9.057,
+    "auxiliary_label_count": 62,
+    "auxiliary_min_pt": 7.143,
+    "main_check_pass": true,
+    "auxiliary_check_pass": true
+  },
+  "source_authority": "current user revision + method excerpts; gamma denotes the fixed existing inference factor15"
+}
